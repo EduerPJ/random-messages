@@ -1,8 +1,13 @@
 const messages = [
-  'Hola',
-  'Estoy destinado a ser un gra éxito en la vida.',
-  'Eduer',
-  'Leidy',
-  'Emily',
-  'Samuel',
+  'Fernando',
+  'Carolina',
+  'Paulina',
+  'John',
 ];
+
+const randomMsg = () => {
+  const message = messages[Math.floor(Math.random() * messages.length)];
+  console.log(message);
+}
+
+module.exports = { randomMsg };

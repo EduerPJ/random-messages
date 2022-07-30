@@ -1,5 +1,5 @@
 {
-  "name": "random-messages",
+  "name": "random-messages-test-1.0-eduer",
   "version": "1.0.0",
   "description": "random de mensajes",
   "main": "src/index.js",
@@ -12,5 +12,9 @@
     "npm"
   ],
   "author": "Eduer Pallares J. <eduerpj@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bin": {
+    "random-msg": "./bin/global.js"
+  },
+  "preferGlobal": true
 }
